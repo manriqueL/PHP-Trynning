@@ -10,7 +10,7 @@
 $arreglo = [7, 4, 8, 2, 5, 6, 1, 3];
 
 //Recorre y muestra cada elemento del arreglo
-var_dump($arreglo);
+var_dump($arreglo); 
 
 //Ordena y muestra el arreglo de menor a maor
 echo "<hr>";
