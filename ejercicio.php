@@ -9,24 +9,34 @@
 */
 $arreglo = [7, 4, 8, 2, 5, 6, 1, 3];
 
+//Funcion para mostrar el arreglo
+function mostrarArreglo($arreglo){
+    $resultado = "";
+    foreach ($arreglo as $numero){
+            $resultado .= $numero."  ";
+        }
+    return $resultado;
+}
+    
 //Recorre y muestra cada elemento del arreglo
-var_dump($arreglo);
+echo "Lista Original: ".mostrarArreglo($arreglo);
+
 
 //Ordena y muestra el arreglo de menor a maor
 echo "<hr>";
 
 asort($arreglo);
-var_dump($arreglo);
+echo "Lista Ordenada de Menor a Mayor: ".mostrarArreglo($arreglo);
 
 echo "<hr>";
 
 //Muestra la longitud del arreglo
-echo count($arreglo);
+echo "Longitud de la lista: " .count($arreglo);
 
 echo "<hr>";
 
 //Busca un elemento dentro del arreglo y devuelve el indice donde se encuentra
 $elemento = array_search( 4, $arreglo);
-var_dump($elemento);
+echo "Elemento buscado: $elemento";
 
 ?>
