@@ -25,4 +25,8 @@ echo count($arreglo);
 
 echo "<hr>";
 
+//Busca un elemento dentro del arreglo y devuelve el indice donde se encuentra
+$elemento = array_search( 4, $arreglo);
+var_dump($elemento);
+
 ?>
