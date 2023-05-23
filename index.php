@@ -17,9 +17,11 @@ for ($i = 0; $i < sizeof($arreglo); $i++){
 
     };
 }
-var_dump($pares);
-var_dump($impares);
-echo "Pares: ".$pares;
-echo "<br>";
-echo "Impares: ".$impares;
+// var_dump($pares);
+// var_dump($impares);
+echo print_r($pares); 
+echo "<hr>";
+echo print_r($impares)
+
 ?>
+
